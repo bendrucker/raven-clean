@@ -1,0 +1,35 @@
+{
+  "name": "raven-clean",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Generate clean raven-js filenames and stack traces by scrubbing cache busting parameters",
+  "license": "MIT",
+  "repository": "bendrucker/raven-clean",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "raven",
+    "js",
+    "cache",
+    "param",
+    "busting",
+    "hex",
+    "hash"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^6.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "xtend": "~4.0.1"
+  }
+}
