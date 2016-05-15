@@ -15,6 +15,6 @@ function ravenClean (regex) {
   }
 
   function clean (url) {
-    return url.replace(regex, '')
+    return !url ? url : url.replace(regex, '')
   }
 }

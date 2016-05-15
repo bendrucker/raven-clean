@@ -37,5 +37,36 @@ test(function (t) {
   }
 
   t.deepEqual(clean(input), output)
+
+  var noFile = {
+    culprit: undefined,
+    exception: {
+      values: [{
+        stacktrace: {
+          frames: [
+            {filename: undefined},
+            {filename: undefined}
+          ]
+        }
+      }]
+    }
+  }
+
+  var noFileOutput = {
+    culprit: undefined,
+    exception: {
+      values: [{
+        stacktrace: {
+          frames: [
+            {filename: undefined},
+            {filename: undefined}
+          ]
+        }
+      }]
+    }
+  }
+
+  t.deepEqual(clean(noFile), noFileOutput)
+
   t.end()
 })
