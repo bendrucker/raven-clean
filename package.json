@@ -1,7 +1,7 @@
 {
   "name": "raven-clean",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate clean raven-js filenames and stack traces by scrubbing cache busting parameters",
   "license": "MIT",
   "repository": "bendrucker/raven-clean",
