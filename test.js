@@ -68,5 +68,17 @@ test(function (t) {
 
   t.deepEqual(clean(noFile), noFileOutput)
 
+  var noException = {
+    culprit: undefined,
+    exception: null
+  }
+
+  var noExceptionOutput = {
+    culprit: undefined,
+    exception: null
+  }
+
+  t.deepEqual(clean(noException), noExceptionOutput)
+
   t.end()
 })
