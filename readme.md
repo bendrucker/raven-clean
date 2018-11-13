@@ -1,4 +1,4 @@
-# raven-clean [![Build Status](https://travis-ci.org/bendrucker/raven-clean.svg?branch=master)](https://travis-ci.org/bendrucker/raven-clean)
+# raven-clean [![Build Status](https://travis-ci.org/bendrucker/raven-clean.svg?branch=master)](https://travis-ci.org/bendrucker/raven-clean) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/raven-clean.svg)](https://greenkeeper.io/)
 
 > Generate clean raven-js filenames and stack traces by scrubbing cache busting parameters
 
